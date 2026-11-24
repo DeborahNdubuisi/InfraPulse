@@ -1,0 +1,11 @@
+apiVersion: 1
+
+providers:
+  - name: "InfraPulse"
+    orgId: 1
+    folder: "InfraPulse"
+    type: file
+    disableDeletion: false
+    editable: true
+    options:
+      path: /var/lib/grafana/dashboards
